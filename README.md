@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project is a Python-based data analysis tool that explores historical electricity and load-shedding data in South Africa. The goal of the project is to better understand trends in electricity supply and visualise patterns within the dataset using graphs and basic analysis techniques.
+This project is a Python-based data scientist tool that explores historical electricity and load-shedding data in South Africa. The goal of the project is to better understand trends in electricity supply and visualise patterns within the dataset using graphs and basic analysis techniques.
 
-The project was built as part of my learning journey in data analytics and Python programming. It combines real-world data with practical programming concepts such as data loading, exception handling, data visualisation, and file management.
+The project was built as part of my learning journey in data science and Python programming. It combines real-world data with practical programming concepts such as data loading, exception handling, data visualisation, and file management.
 
 The dataset used in this project contains historical Eskom electricity and load-shedding information sourced from Kaggle.
 
