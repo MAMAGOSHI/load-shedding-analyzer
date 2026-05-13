@@ -125,14 +125,7 @@ My open-ended insight looked at the frequency of severe stages — stage 4 and a
 
 ## Visualisations
 
-### Stage Over Time
-![Stage Over Time](charts/stage_over_time.png)
 
-### Average Stage by Month
-![Average Stage by Month](charts/avg_stage_by_month.png)
-
-### Average Stage by Day of Week
-![Average Stage by Day](charts/stage_by_day.png)
 
 ---
 
