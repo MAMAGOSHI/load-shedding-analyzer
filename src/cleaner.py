@@ -1,11 +1,17 @@
 import pandas as pd
 from src.exceptions import InvalidStageError
 
-
-class DataCleaner:
-
+class BaseProcessor:
     def __init__(self, df):
         self.df = df
+
+    def process(self):
+        raise NotImplementedError("Subclasses must implement process()")
+
+class DataCleaner(BaseProcessor):
+
+    def __init__(self, df):
+        super().__init__(df)
 
     def process(self):
         """

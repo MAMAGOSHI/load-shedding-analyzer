@@ -3,9 +3,15 @@ import pandas as pd
 from kaggle.api.kaggle_api_extended import KaggleApi
 from src.exceptions import MissingDataError
 
+
 DATASET = "sbonelondhlazi/sa-electricity-historical-data"
 FILE_NAME = "EskomSePush_history.csv"
 RAW_PATH = "data/raw"
+
+def csv_generator(file_path):
+    with open(file_path, "r") as file:
+        for line in file:
+            yield line
 
 
 def download_dataset():
