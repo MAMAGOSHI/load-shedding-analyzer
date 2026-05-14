@@ -101,31 +101,31 @@ The project also includes basic exception handling to manage possible errors suc
 
 ## Analysis Questions and Findings
 
-### Q1 — What is the average load shedding stage per month?
+Q1 — What is the average load shedding stage per month?
 
 Looking at the data grouped by month, the average stage varies throughout the year. Months in the middle of the year consistently show higher average stages compared to summer months. This suggests that load shedding is not evenly distributed across the year.
 
-### Q2 — Which months or seasons see the most severe stages? Does the data support the claim that winter is worst?
+ Q2 — Which months or seasons see the most severe stages? Does the data support the claim that winter is worst?
 
-The data does support this claim. Winter months — June, July and August — show the highest average load shedding stages. This aligns with increased electricity demand during cold weather when households use more heating. Summer months like December and January show lower average stages, confirming that winter is the peak period for severe load shedding.
+The data does support this claim. Winter months : June, July and August, show the highest average load shedding stages. This aligns with increased electricity demand during cold weather when households use more heating. Summer months like December and January show lower average stages, confirming that winter is the peak period for severe load shedding.
 
-### Q3 — Is there a day-of-week pattern? Are weekdays different from weekends?
+ Q3 — Is there a day-of-week pattern? Are weekdays different from weekends?
 
-The analysis shows a slight pattern where weekdays have a marginally different average stage compared to weekends. This could be explained by industrial and commercial electricity demand being higher on weekdays when businesses are operating. However the difference is not dramatic — load shedding affects all days of the week.
+The analysis shows a slight pattern where weekdays have a marginally different average stage compared to weekends. This could be explained by industrial and commercial electricity demand being higher on weekdays when businesses are operating. However the difference is not dramatic ,load shedding affects all days of the week.
 
-### Q4 — How many total hours of outages occurred per year? Show the trend.
+ Q4 — How many total hours of outages occurred per year? Show the trend.
 
 The total outage hours increased significantly in more recent years in the dataset. Earlier years show lower totals while later years show a clear upward trend. This reflects the well-known worsening of South Africa's load shedding crisis over time as Eskom's generation capacity declined.
 
-### Q5 — Open-ended insight
+ Q5 — Open-ended insight
 
-My open-ended insight looked at the frequency of severe stages — stage 4 and above — per year. The data shows that severe stages were rare in earlier years but became increasingly common in more recent years. This means South Africans are not just experiencing more outages but more intense ones. Stage 4 and above means up to 12 hours of no electricity per day, which has a serious impact on businesses, households and the economy.
+My open-ended insight looked at the frequency of severe stages stage 4 and above  per year. The data shows that severe stages were rare in earlier years but became increasingly common in more recent years. This means South Africans are not just experiencing more outages but more intense ones. Stage 4 and above means up to 12 hours of no electricity per day, which has a serious impact on businesses, households and the economy.
 
 ---
 
 ## Visualisations
 
-
+See under charts.
 
 ---
 
@@ -135,8 +135,8 @@ My open-ended insight looked at the frequency of severe stages — stage 4 and a
 - I learned how to use the Kaggle API to download datasets programmatically instead of downloading manually
 - I learned how to use Pandas to group and aggregate data to answer real questions
 - I learned how to use Matplotlib to generate and save charts automatically
-- I learned the importance of exception handling — without it, errors are confusing and hard to debug
+- I learned the importance of exception handling  without it, errors are confusing and hard to debug
 - I learned how to use Git properly with meaningful commit messages to show the progression of my work
-- Working with a real dataset taught me that data is never perfect — there are always missing values, duplicates and formatting issues that need to be cleaned before analysis can begin
+- Working with a real dataset taught me that data is never perfect  there are always missing values, duplicates and formatting issues that need to be cleaned before analysis can begin
 
 
